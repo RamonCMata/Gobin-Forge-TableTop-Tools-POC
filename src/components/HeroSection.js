@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
+import { RegisterButton } from './RegisterButton';
+import { LoginButton } from './LoginButton';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -9,8 +11,8 @@ function HeroSection() {
             <h1>Welcome</h1>
             <p>Start Your Adventure Now</p>
             <div className="hero-btns">
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'> Join Game </Button>
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'> Create Game </Button>
+                <RegisterButton className='regbtn' buttonStyle='btn--outline' buttonSize='btn--large'> Register </RegisterButton>
+                <LoginButton className='loginbtn' buttonStyle='btn--outline' buttonSize='btn--large'>&nbsp; Login &nbsp; </LoginButton>
             </div>
 
 
